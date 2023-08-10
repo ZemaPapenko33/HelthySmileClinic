@@ -60,6 +60,35 @@
     width: 100%;
     min-height: 300px;
   }
+  &__menu {
+    width: 100%;
+    height: 50px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  &__navigation {
+    width: 100%;
+  }
+  &__navigation-item {
+    width: 100%;
+    display: inline-flex;
+    justify-content: space-around;
+    color: white;
+    li {
+      margin-right: 15px;
+      font-size: 30px;
+      color: white;
+      transition: all 0.1s;
+    }
+    li:hover {
+      color: #2c456f;
+    }
+    a {
+      text-decoration: none;
+    }
+  }
   &__img {
     object-fit: contain;
     width: 100%;
@@ -119,19 +148,20 @@
 }
 
 .footer {
-  min-height: 300px;
-  width: 100%;
-  background-color: black;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 50px;
+  &__content {
+    height: 600px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+  }
   &__numbers {
     width: 45%;
-    min-height: 300px;
+    min-height: 100px;
     display: flex;
     flex-direction: column;
-    align-items: center;
     justify-content: center;
   }
   &__social-link {
@@ -143,25 +173,54 @@
     justify-content: center;
   }
   &__address {
-    width: 25%;
+    width: 55%;
     min-height: 300px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    margin-right: 30px;
   }
   &__title {
     color: white;
     font-size: 40px;
+    margin-top: 20px;
   }
-  &__numbers {
+  &__numbers-text {
     color: white;
-    font-size: 25px;
+    font-size: 30px;
+    margin-bottom: 20px;
   }
   &__social-link-img {
     object-fit: contain;
-    width: 100px;
+    width: 50px;
+    height: 50px;
+    margin-bottom: 20px;
+  }
+  &__menu {
+    width: 100%;
     height: 100px;
-    margin-bottom: 50px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  &__navigation-item {
+    width: 100%;
+    display: inline-flex;
+    justify-content: space-around;
+    color: white;
+    li {
+      margin-right: 15px;
+      font-size: 30px;
+      color: white;
+      transition: all 0.1s;
+    }
+    li:hover {
+      color: #2c456f;
+    }
+    a {
+      text-decoration: none;
+    }
   }
 }

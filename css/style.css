@@ -424,6 +424,35 @@ table {
   width: 100%;
   min-height: 300px;
 }
+.PhotoSection__menu {
+  width: 100%;
+  height: 50px;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.PhotoSection__navigation {
+  width: 100%;
+}
+.PhotoSection__navigation-item {
+  width: 100%;
+  display: inline-flex;
+  justify-content: space-around;
+  color: white;
+}
+.PhotoSection__navigation-item li {
+  margin-right: 15px;
+  font-size: 30px;
+  color: white;
+  transition: all 0.1s;
+}
+.PhotoSection__navigation-item li:hover {
+  color: #2c456f;
+}
+.PhotoSection__navigation-item a {
+  text-decoration: none;
+}
 .PhotoSection__img {
   -o-object-fit: contain;
      object-fit: contain;
@@ -478,8 +507,8 @@ table {
   background-color: black;
 }
 
-.footer {
-  min-height: 300px;
+.footer__content {
+  height: 600px;
   width: 100%;
   background-color: black;
   display: flex;
@@ -489,10 +518,9 @@ table {
 }
 .footer__numbers {
   width: 45%;
-  min-height: 300px;
+  min-height: 100px;
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
 }
 .footer__social-link {
@@ -504,25 +532,54 @@ table {
   justify-content: center;
 }
 .footer__address {
-  width: 25%;
+  width: 55%;
   min-height: 300px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  margin-right: 30px;
 }
 .footer__title {
   color: white;
   font-size: 40px;
+  margin-top: 20px;
 }
-.footer__numbers {
+.footer__numbers-text {
   color: white;
-  font-size: 25px;
+  font-size: 30px;
+  margin-bottom: 20px;
 }
 .footer__social-link-img {
   -o-object-fit: contain;
      object-fit: contain;
-  width: 100px;
+  width: 50px;
+  height: 50px;
+  margin-bottom: 20px;
+}
+.footer__menu {
+  width: 100%;
   height: 100px;
-  margin-bottom: 50px;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.footer__navigation-item {
+  width: 100%;
+  display: inline-flex;
+  justify-content: space-around;
+  color: white;
+}
+.footer__navigation-item li {
+  margin-right: 15px;
+  font-size: 30px;
+  color: white;
+  transition: all 0.1s;
+}
+.footer__navigation-item li:hover {
+  color: #2c456f;
+}
+.footer__navigation-item a {
+  text-decoration: none;
 }/*# sourceMappingURL=style.css.map */

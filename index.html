@@ -12,12 +12,25 @@
     <!-- HEADER -->
     <header class="header container header__container">
       <img src="./img/logo_healthysmile2.png" alt="logo" class="header__logo" />
+      <div class="header__map">
+        <p>ул. Братская 4 г.Минск</p>
+        <a href="#map">Посмотреть на карте</a>
+      </div>
       <div class="header__contacts">
         <a href="tel:+375293371010 "><p>+375 (29) 337 10 10 (А1)</p></a>
         <br />
         <a href="tel:+375295671010"><p>+375 (29) 567 10 10 (МТС)</p></a>
         <br />
         <a href="tel:+375173437070"><p>+375 (17) 343 70 70 (Городской)</p></a>
+      </div>
+      <div class="header__time">
+        <p>
+          пн-пт: 9:00 - 21:00 <br />
+          сб-вс : выходной⁣⁣⠀
+        </p>
+      </div>
+      <div class="header__button">
+        <button>Записаться</button>
       </div>
     </header>
     <!-- header -->
@@ -46,7 +59,7 @@
           </nav>
         </div>
 
-        <img src="./img/IMG_2403.jpg" alt="photo dentist" class="PhotoSection__img" />
+        <img src="./img/5540021.jpg" alt="photo dentist" class="PhotoSection__img" />
       </section>
       <section class="container aboutUsSection__container" id="AboutUs">
         <div class="aboutUsSection__up">
@@ -65,10 +78,7 @@
           <div class="peopleSection__box-item">
             <img src="./img/GlavVrach.jpg" alt="" class="peopleSection__box-item-img" />
             <h2 class="peopleSection__box-item-title">Некрашевич Анна Валерьевна</h2>
-            <p class="peopleSection__box-item-subtitle">
-              Главный врач стоматологической клиники HEALTHY SMILE, врач-стоматолог-терапевт 1
-              квалификационной категории. Стаж работы более 15 лет.
-            </p>
+            <p class="peopleSection__box-item-subtitle">Главный врач</p>
           </div>
           <div class="peopleSection__box-item">
             <img src="./img/Nur.jpg" alt="" class="peopleSection__box-item-img" />
@@ -84,14 +94,50 @@
       </section>
       <section class="container servicesSection__container" id="Services">
         <div class="servicesSection__line">
-          <div class="servicesSection__services"></div>
-          <div class="servicesSection__services"></div>
-          <div class="servicesSection__services"></div>
+          <div class="servicesSection__services">
+            <img
+              src="./icon/free-icon-dentist-chair-4100325.png"
+              alt=""
+              class="servicesSection__services-img"
+            />
+          </div>
+          <div class="servicesSection__services">
+            <img
+              src="./icon/free-icon-dentist-tools-288273.png"
+              alt=""
+              class="servicesSection__services-img"
+            />
+          </div>
+          <div class="servicesSection__services">
+            <img
+              src="./icon/free-icon-dentistry-5577335.png"
+              alt=""
+              class="servicesSection__services-img"
+            />
+          </div>
         </div>
         <div class="servicesSection__line">
-          <div class="servicesSection__services"></div>
-          <div class="servicesSection__services"></div>
-          <div class="servicesSection__services"></div>
+          <div class="servicesSection__services">
+            <img
+              src="./icon/free-icon-drilling-5954519.png"
+              alt=""
+              class="servicesSection__services-img"
+            />
+          </div>
+          <div class="servicesSection__services">
+            <img
+              src="./icon/free-icon-jaw-2441131.png"
+              alt=""
+              class="servicesSection__services-img"
+            />
+          </div>
+          <div class="servicesSection__services">
+            <img
+              src="./icon/free-icon-tooth-8913646.png"
+              alt=""
+              class="servicesSection__services-img"
+            />
+          </div>
         </div>
       </section>
     </main>
@@ -100,7 +146,7 @@
     <footer class="footer container" id="Contacts">
       <div class="footer__content">
         <img src="./img/logo_healthysmile2.png" alt="logo" class="header__logo" />
-        <div class="footer__address">
+        <div class="footer__address" id="map">
           <iframe
             src="https://yandex.ru/map-widget/v1/?um=constructor%3Ad6f6058c1881029b471dce076ad7067a9a524039d136aade4bea91da7b7bf5fb&amp;source=constructor"
             width="100%"
